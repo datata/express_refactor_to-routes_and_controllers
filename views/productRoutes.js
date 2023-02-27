@@ -1,5 +1,5 @@
 const router = require('express').Router();
 
-router.get('/products', (req, res) => { return res.send('Get Users')})
+router.get('/products', (req, res) => { return res.send('Get Products')})
 
 module.exports = router;
