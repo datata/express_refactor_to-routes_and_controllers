@@ -1,11 +1,9 @@
 const express = require('express');
 const app = express();
 
-const productRoutes = require('./views/productRoutes');
-const categoriasRoutes = require('./views/categoriasRoutes');
+const router = require('./router');
 
-app.use(productRoutes);
-app.use(categoriasRoutes);
+app.use(router);
 
 const PORT = 3000;
 
